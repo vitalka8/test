@@ -1,0 +1,775 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+.topnav{
+	font-family: MullerLight;
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+
+
+header{
+	width: 100%;
+	
+	display: flex;
+}
+.header__logo{
+	margin-top: 72px;
+	margin-left: 330px;
+}
+nav{
+	margin-top: 84px;
+    margin-left: 500px; 	   
+}
+body{
+	margin-left: -40px;
+}
+.topnav{
+	margin-left: -100px;
+}
+.topnav a{
+	color: #929292;
+	margin-left: 60px;
+	font-size: 16px;
+}
+
+.topnav a:hover{
+	border-bottom: 2px solid #00b5f7;
+}
+.topnav .icon{
+	display: none;
+}
+.main-birga{
+	text-transform: uppercase;
+	margin-left: 330px;
+	margin-top: 110px;
+	display: flex;
+	
+
+}
+.main-birga h1{
+	font-family: MullerBold;
+	font-size: 37px;
+	color: #505050;
+	margin-bottom: 55px;
+}
+.main-birga p{
+	font-family: MullerLight;
+	font-size: 16px;
+	color: #929292;
+	margin-left: -80px;
+}
+.main-img{
+	margin-top: -90px;
+	margin-left: -100px;
+}
+.knopka-blue{
+	margin-left: -10px;
+}
+.main-birga a:hover{
+	opacity: 0.6;
+}
+.knopka-blue p{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 90px;
+	margin-top: -78px;
+}
+.our-keys h1{
+	font-family: MullerRegular;
+	font-size: 30;
+	color: #505050;
+	text-align: center;
+	margin-top: 115px; 
+}
+.cardbc{
+	margin-top: 35px;
+	margin-left: 240px;
+
+}
+.car-text{
+	margin-top: -490px;
+	margin-left: 370px;
+	margin-bottom: 400px;
+	
+}
+.car-text h4{
+	font-family: MullerRegular;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.car-text p{
+	font-family: MullerLight;
+	padding-top: 20px;
+	font-size: 16px;
+	margin-left: -100px;
+}
+
+
+.owl-carousel{
+	
+	margin-bottom: : 40px;
+	margin-left: 50px;
+	width: 80%;
+	
+}
+.owl-buttons{
+position: relative;
+
+
+}
+
+.owl-prev {
+
+position: absolute;
+left: 400px;
+top: 440px;
+
+
+
+}
+.owl-prev:hover{
+	opacity: 0.6;
+}
+.owl-next {
+
+position: absolute;
+right: 650px;
+top: 440px;
+background: url(img/next.png) no-repeat;
+} 
+.owl-next:hover{
+	opacity: 0.6;
+}
+
+.owl-dots{
+	position: relative;
+	margin-top: -300px;
+	margin-left: -250px;
+	color: #00adff;
+}
+.kavichki{
+	text-align: center;
+}
+.line img{
+	margin-top: 250px;
+	margin-bottom: 30px;
+
+}
+.kavichki p{
+	font-family: MullerLight;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #929292;
+	margin-left: -50px;
+	
+}
+.line2 img{
+	margin-top: 40px;
+	margin-bottom: 110px;
+}
+.how-work{
+	text-align: center;
+}
+.how-work h4{
+	font-family: MullerRegular;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #434343;
+	margin-bottom: 80px;
+}
+.spec-card{
+	display: flex;
+   justify-content: space-between;
+	width: 70%;
+	margin-left: 260px;
+	text-align: center;
+	margin-bottom: 130px;
+}
+.spec-card p{
+	margin-left: -40px;
+
+
+}
+.first-p{
+	margin-top: 35px;
+
+}
+.tarif h4{
+	font-family: MullerRegular;
+	font-size: 30px;
+	color: #555556;
+	text-transform: uppercase;
+	text-align: center;
+}
+.tarif-card{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.tarif-knop{
+	margin-top: -150px;
+margin-bottom: 100px;
+}
+.tarif-knop a{
+	padding: 0 63px;
+
+}
+.tarif-knop a:hover{
+	opacity: 0.6;
+}
+.tarif-card a:hover{
+	opacity: 0.6;
+
+}
+
+
+.bazarim-eto h4{
+	font-family: MullerRegular;
+	font-size: 30px;
+	text-align: center;
+	color: #555556;
+	margin-bottom: 70px;
+	margin-top: 100px;
+}
+.bazarim-eto img{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 334px;
+}
+
+.bazarim-cards{
+	display: flex;
+	justify-content: space-between;
+	 text-align: center;
+	 width: 75%;
+	 margin-left: 200px;
+}
+.botom-card h3{
+	font-family: MullerBold;
+	font-size: 16px;
+	margin-top: 30px;
+	color: #676767;
+}
+
+.botom-card p{
+	font-family: MullerLight;
+	font-size: 16px;
+	margin-top: 20px;
+	color: #7b8084;
+	margin-bottom: 120px;
+	margin-left: -70px;
+}
+.kalk-zagolovok{
+	font-family: MullerRegular;
+	font-size: 30px;
+	text-align: center;
+	color: #434343;
+	margin-bottom: 90px;
+}
+.zadacha{
+	display: flex;
+	margin-left: 250px;
+	margin-bottom: 50px;
+
+}
+.zadacha h4{
+	font-family: MullerBold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #434343;
+}
+.zadacha p{
+	font-family: MullerLight;
+	font-size: 16px;
+	padding-left: 55px;
+	background: #f5f9fb;
+	margin-left: -20px;
+	margin-top: -5px;
+}
+.silka-grup{
+	display: flex;
+	float: right;
+	margin-right: 300px;
+	margin-top: -120px;
+}
+.silka-grup h4{
+	font-family: MullerBold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #434343;
+}
+.silka-grup a{
+	font-family: MullerLight;
+	font-size: 17px;
+	color: #00b1fc;
+	padding-left: 55px;
+	text-decoration: underline;
+}
+
+.new-select select {
+    border-radius: 0;
+    background: transparent;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-family: MullerLight;
+    color: #434343;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 230px;
+    float: right;
+    
+   }
+
+   .new-select {
+    float: right; 
+    height: 34px;
+    background: url(img/fonreg.png) no-repeat right #f5f9fb;
+    width: 200px;
+    margin-top: -75px;
+    margin-right: 240px;
+   }
+
+   
+   .region{
+   	float: right;
+   	margin-top: -65px;
+    margin-right: 530px;
+    font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+   }
+.polzunok{
+	width: 360px;
+	margin-top: -10px;
+	margin-bottom: 70px;
+	margin-left: 550px;
+
+}
+.polz-text h4{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+.ui-widget-header {
+background:#f00;
+height:8px;
+left:1px;
+top:1px;
+position:absolute;
+}	
+	
+
+
+	#slider-result {
+text-align:left;
+position: absolute;
+margin-top: -60px;
+margin-left: 10px;
+background: url(img/rezolt.png) no-repeat;
+color:#fff;
+font: 18px;
+font-weight: bold;
+padding:15px 20px;
+width:100px;
+height: 60px;
+
+}
+
+.budjet{
+	
+margin-top: -100px;	
+float: right;
+margin-right: 250px;
+display: flex;
+}
+
+.budjet h1{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	margin-top: 3px;
+
+}
+.budjet h4, h1{
+padding: 0 20px;
+}
+.budjet h4{
+	font-family: MullerRegular;
+	font-size: 30px;
+	color: #00b1fb;
+	margin-top: -8px;
+	padding: 0 5px;
+}
+
+.budjet input{
+	width: 130px;
+margin-top: -8px;
+font-family: MullerBold;
+	font-size: 30px;
+	color: #00b1fb;
+	border: none;
+}
+
+.zakazat{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+.zakazat img:hover{
+	opacity: 0.6;
+}
+
+.footer-top{
+	display: flex;
+	background: #eff3f5;
+	justify-content: center;	
+}
+	
+.nashe-vse img{
+	width: 30%;
+	display: flex;
+	padding-bottom: 15px;
+}
+
+.footer-top h4, p{
+	margin-left: 100px;
+	padding-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.footer-top h4{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	text-transform: uppercase;
+}
+
+.footer-top p{
+	font-family: MullerLight;
+    color: #434343;
+    font-size: 16px;
+    margin-top: -20px;
+}
+ /* POPUP*/
+
+.modalDialog {
+ position: fixed;
+ font-family: Arial, Helvetica, sans-serif;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: rgba(0,0,0,0.4);
+ z-index: 99999;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ display: none;
+ pointer-events: none;
+
+}
+
+
+.modalDialog:target {
+ display: block;
+ pointer-events: auto;
+}
+ 
+.modalDialog > div {
+ width: 715px;
+ height: 855px;
+ position: relative;
+ margin: 1% auto;
+ border-radius: 15px;
+ background: #fff;
+}
+.modalDialog img{
+	width: 100%;
+	height: 12%;
+
+}
+.modalDialog h2{
+	text-align: center;
+	margin-top: -60px;
+	font-family: MullerRegular;
+	font-size: 30px;
+	color: #fff;
+}
+
+.close {
+ background: #899ead;
+ color: #FFFFFF;
+ line-height: 25px;
+ position: absolute;
+ right: -12px;
+ text-align: center;
+ top: -10px;
+ width: 24px;
+ text-decoration: none;
+ font-weight: bold;
+ -webkit-border-radius: 12px;
+ -moz-border-radius: 12px;
+ border-radius: 12px;
+ -moz-box-shadow: 1px 1px 3px #000;
+ -webkit-box-shadow: 1px 1px 3px #000;
+ box-shadow: 1px 1px 3px #000;
+}
+ 
+.close:hover { background: #00d9ff; }
+
+.region-popup{
+	text-align: center;
+	margin-top: 200px;
+}
+.text-zadachi input{
+	width: 350px;
+	height: 200px;
+
+}
+.zakazat2 img{
+	width: 30%;
+}
+
+.popup h3{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #00b1fb;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+}
+.popup label{
+
+	padding-left: 260px;
+
+}
+.popup input{
+	margin-bottom: 20px;
+
+}
+
+.text-zadachi{
+	display: flex;
+	margin-top: 30px;
+	margin-left: -120px;
+}
+
+.text-zadachi p{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	text-transform: uppercase;
+	margin-top: -1px;
+}
+.text-zadachi textarea{
+	margin-left: 40px;
+}
+.silka-grup-popup{
+	justify-content: center;
+	display: flex;
+	padding-top: 40px;
+}
+.silka-grup-popup h4{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	text-transform: uppercase;
+	padding-right: 20px;
+}
+.silka-grup-popup a{
+	font-family: MullerLight;
+	font-size: 17px;
+	color: #00b1fc;
+	text-decoration: underline;
+}
+.region-popup{
+	display: flex;
+
+}
+.new-select2 select {
+    border-radius: 0;
+    background: transparent;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-family: MullerLight;
+    color: #434343;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 230px;
+    float: right;
+    
+   }
+.new-select2{
+float: right; 
+    height: 34px;
+    background: url(img/fonreg.png) no-repeat right #f5f9fb;
+    width: 200px;
+    margin-top: -130px;
+    margin-right:130px;
+}
+.region-popup h4{
+font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;	
+	margin-top: -120px;
+	margin-left: 160px;
+}
+
+.budjet2{
+	
+margin-top: -30px;	
+float: right;
+margin-right: 250px;
+display: flex;
+margin-bottom: 20px;
+}
+
+.budjet2 h1{
+	font-family: MullerBold;
+	font-size: 16px;
+	color: #434343;
+	margin-top: 3px;
+
+}
+.budjet2 h4, h1{
+padding: 0 20px;
+}
+.budjet2 h4{
+	font-family: MullerRegular;
+	font-size: 30px;
+	color: #00b1fb;
+	margin-top: -8px;
+	padding: 0 5px;
+}
+
+.budjet2 input{
+	width: 130px;
+margin-top: -8px;
+font-family: MullerBold;
+	font-size: 30px;
+	color: #00b1fb;
+	border: none;
+}
+.zakazat2{
+	text-align: center;
+	margin-top: 50px;
+}
+.zakazat2 img:hover{
+	opacity: 0.6;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	display: none;
+}
+
+.popup2 {
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	background-color: #FFF;
+}
+
+.close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+	.topnav a{
+		display: none;
+
+	}
+	.topnav a.icon{
+		float: right;
+		display: block;
+		color: #929292;
+		font-size: 25px;
+	}
+	nav{
+	width: 100%
+	margin-top: 84px;
+    margin-left: 300px;
+    }	
+	
+	.header__logo{
+	margin-top: 95px;
+	margin-left: 100px;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -108px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+}
+    
+}
